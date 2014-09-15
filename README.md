@@ -1,0 +1,1 @@
+https://raw.github.com/atrakeur/openshift-mono-cartridge/master/metadata/manifest.yml
