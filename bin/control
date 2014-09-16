@@ -19,8 +19,8 @@ function stop()
 
 function restart()
 {
-	start
 	stop
+	start
 }
 
 function tidy()
