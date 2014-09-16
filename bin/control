@@ -4,7 +4,7 @@ source $OPENSHIFT_CARTRIDGE_SDK_BASH
 function start()
 {
 	chmod u+x $OPENSHIFT_MONO_DIR/mono/bin/*
-	nohup $OPENSHIFT_MONO_DIR/mono/bin/mono $OPENSHIFT_REPO_DIR/Server.exe > $OPENSHIFT_LOG_DIR/log.txt &
+	nohup $OPENSHIFT_MONO_DIR/mono/bin/mono $OPENSHIFT_REPO_DIR/Server.exe $OPENSHIFT_MONO_IP $OPENSHIFT_MONO_PORT > $OPENSHIFT_LOG_DIR/log.txt &
 }
 
 function stop()
